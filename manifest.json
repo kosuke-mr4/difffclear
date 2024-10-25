@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Input Boxes for difff",
+  "version": "1.0",
+  "description": "Adds a clear button next to the submit button on difff",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://difff.jp/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
